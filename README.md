@@ -3,6 +3,11 @@
 ## Overview
 This project involves creating an interactive map that displays earthquake data. The map is built using Leaflet, a popular open-source JavaScript library for interactive maps. The earthquake data is retrieved from the United States Geological Survey (USGS) website, and is displayed on the map using markers that vary in size and color based on the magnitude of each earthquake. The map also includes a layer control that allows users to toggle between different map styles, as well as additional overlays for tectonic plates and major earthquakes. The legend on the bottom right displays the color-coding for earthquake magnitude, and the corresponding range of magnitudes for each color. The project involves using JavaScript, D3, and Leaflet to build the map and customize its features.
 
+## Getting Started
+1. Copy `Mapping_Single_Points/static/js/config.js.example` to `Mapping_Single_Points/static/js/config.js`.
+2. Replace `YOUR_MAPBOX_API_KEY` in the copied file with your own Mapbox API key.
+3. Serve the project with any static file server and open `index.html` in your browser.
+
 ### Instructions
 - When you first open the map, you will see a default view of the world with earthquake data from the past week.
 
@@ -25,3 +30,6 @@ This project involves creating an interactive map that displays earthquake data.
 
 ### Satellite
 <img width="867" alt="Satellite" src="https://user-images.githubusercontent.com/114355199/223001514-a1a1361c-eff4-4e8e-81cd-7cafa18770ff.png">
+
+
+This project is licensed under the MIT License.
